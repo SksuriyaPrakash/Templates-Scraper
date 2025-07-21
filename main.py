@@ -91,6 +91,6 @@ def main(base_url, save_path):
     scrape_page(base_url, base_url, save_path, scraped_pages)
 
 if __name__ == "__main__":
-    base_url = 'https://html.themeholy.com/atek/demo/index.html'  # Replace with the URL you want to scrape
-    save_path = 'G:/template/ATec'  # Replace with the path where you want to save the scraped HTML files
+    base_url = 'https://themesbrand.com/steex/layouts/index.html'  # Replace with the URL you want to scrape
+    save_path = 'F:/Templates/Ecommerce_dashboard'  # Replace with the path where you want to save the scraped HTML files
     main(base_url,save_path)
